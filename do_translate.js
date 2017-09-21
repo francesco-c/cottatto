@@ -808,8 +808,8 @@ findAndReplaceDOMText(_body, {
 });
 
 findAndReplaceDOMText(_body, {
-    find: /sg[aeiou]/ig,
-    replace: 'gg'
+    find: /(sg)([aeiou])/ig,
+    replace: 'gg$2'
 });
 
 findAndReplaceDOMText(_body, {
@@ -864,8 +864,8 @@ findAndReplaceDOMText(_body, {
 });
 
 findAndReplaceDOMText(_body, {
-    find: /rg[aeiou]/ig,
-    replace: 'gg'
+    find: /(rg)([aeiou])/ig,
+    replace: 'gg$2'
 });
 
 findAndReplaceDOMText(_body, {
