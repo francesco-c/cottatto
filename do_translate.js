@@ -632,88 +632,335 @@
 }));
 
 var _body = document.body;
+
+
 findAndReplaceDOMText(_body, {
-    find: /ss/g,
+    find: /nz/ig,
+    replace: 'nt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /nt/ig,
     replace: 'tt'
 });
 
 findAndReplaceDOMText(_body, {
-    find: /cc/g,
-    replace: 'tt'
+    find: /nt/ig,
+    replace: 'cc'
 });
 
 findAndReplaceDOMText(_body, {
-    find: /nz/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /zz/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /rs/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /lt/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /rt/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /st/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /sc/g,
-    replace: 'c'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /Sc/g,
-    replace: 'c'
-});
-
-
-findAndReplaceDOMText(_body, {
-    find: /nt/g,
-    replace: 'tt'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /rn/g,
-    replace: 'nn'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /rd/g,
-    replace: 'dd'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /rb/g,
-    replace: 'bb'
-});
-
-findAndReplaceDOMText(_body, {
-    find: /rv/g,
+    find: /nv/ig,
     replace: 'vv'
 });
 
 findAndReplaceDOMText(_body, {
-    find: /z/g,
+    find: /nc/ig,
+    replace: 'cc'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /nd/ig,
+    replace: 'dd'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /nf/ig,
+    replace: 'ff'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /ng/ig,
+    replace: 'gg'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /nq/ig,
+    replace: 'qq'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /ns/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /nt/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /nv/ig,
+    replace: 'vv'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /mp/ig,
+    replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /mb/ig,
+    replace: 'bb'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lt/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lb/ig,
+    replace: 'bb'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lc/ig,
+    replace: 'cc'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /ld/ig,
+    replace: 'dd'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lf/ig,
+    replace: 'ff'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lg/ig,
+    replace: 'gg'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lm/ig,
+    replace: 'mm'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lp/ig,
+    replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /ls/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lt/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lv/ig,
+    replace: 'vv'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /lz/ig,
+    replace: 'tt'
+});
+
+
+
+findAndReplaceDOMText(_body, {
+    find: /st/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sci/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sc/ig,
+    replace: 'cc'
+});
+
+
+findAndReplaceDOMText(_body, {
+    find: /sp/ig,
+    replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /ss/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sb/ig,
+    replace: 'bb'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sd/ig,
+    replace: 'dd'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sf/ig,
+    replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sg[aeiou]/ig,
+    replace: 'gg'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sn/ig,
+    replace: 'nn'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sm/ig,
+    replace: 'mm'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sp/ig,
+    replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sq/ig,
+    replace: 'qq'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /st/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sv/ig,
+    replace: 'vv'
+});
+
+
+findAndReplaceDOMText(_body, {
+    find: /rb/ig,
+    replace: 'bb'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rc/ig,
+    replace: 'cc'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rd/ig,
+    replace: 'dd'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rf/ig,
+    replace: 'ff'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rg[aeiou]/ig,
+    replace: 'gg'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rm/ig,
+    replace: 'mm'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rn/ig,
+    replace: 'nn'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rp/ig,
+    replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rs/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rt/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rv/ig,
+    replace: 'vv'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rz/ig,
+    replace: 'tt'
+});
+
+
+
+findAndReplaceDOMText(_body, {
+    find: /z/ig,
     replace: 't'
 });
 
 findAndReplaceDOMText(_body, {
-    find: /sp/g,
+    find: /zz/ig,
+    replace: 'tt'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /br/ig,
+    replace: 'bb'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /cr/ig,
+    replace: 'cc'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /dr/ig,
+    replace: 'dd'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /fr/ig,
+    replace: 'ff'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /gr/ig,
+    replace: 'gg'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /pr/ig,
     replace: 'pp'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /rr/ig,
+    replace: ''
+});
+
+findAndReplaceDOMText(_body, {
+    find: /sr/ig,
+    replace: ''
+});
+
+findAndReplaceDOMText(_body, {
+    find: /tr/ig,
+    replace: 't'
+});
+
+findAndReplaceDOMText(_body, {
+    find: /vr/ig,
+    replace: 'v'
 });
