@@ -869,6 +869,11 @@ findAndReplaceDOMText(_body, {
 });
 
 findAndReplaceDOMText(_body, {
+    find: /rl/ig,
+    replace: 'll'
+});
+
+findAndReplaceDOMText(_body, {
     find: /rm/ig,
     replace: 'mm'
 });
